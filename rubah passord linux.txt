@@ -1,0 +1,6 @@
+cara merubah password root pada Linux
+1. boot kali linux sampai muncul menu grub dan tekan e
+2. kemudian ubah tulisan "ro" menjadi "rw" dan di belakang initrd.gz tambahkan "init=/bin/bash"
+3. lalu tekan f10 
+4. setelah reboot ketik "passwd root" masukan pwd baru 
+5. lalu reboot
